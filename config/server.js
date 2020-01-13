@@ -10,7 +10,7 @@
 	app.set('views', './app/views');
 
 	app.use(cors());
-	app.use(express.static('./src/app/views/public'));
+	app.use(express.static('./app/views/public'));
 	app.use(bodyParser.json());
 	app.use(bodyParser.urlencoded({ extended: true }));
 
